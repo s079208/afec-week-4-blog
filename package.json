@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/s079208/afec-week4-blog.git"
+    "url": "git+https://github.com/s079208/afec-week-4-blog.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/s079208/afec-week4-blog.git"
+    "url": "https://github.com/s079208/afec-week-4-blog.git"
   },
-  "homepage": "https://github.com/s079208/afec-week4-blog.git",
+  "homepage": "https://github.com/s079208/afec-week-4-blog.git",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0"
   }
