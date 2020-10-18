@@ -3,4 +3,14 @@
 {% block content %}
  	<h3>Blogpost: {{ title }}</h3>
   {{ content | safe }}
+
+  <h3>Recente posts</h3>
+
+  <ul class="blog">
+  {%- for post in collections.post | reverse -%}
+    <li>
+      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+   </li>
+  {%- endfor -%}
+  </ul>
 {% endblock %}
